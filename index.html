@@ -34,13 +34,26 @@
             padding: 90px 0 70px;
         }
 
-        h1 {
-            font-size: 3.5rem;
-            background: linear-gradient(90deg, #00c6ff, #0072ff);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 20px;
-        }
+h1 {
+    display: inline-block;
+    font-size: 3.5rem;
+
+    background:
+        linear-gradient(#111827, #111827) padding-box,
+        linear-gradient(90deg, #00c6ff, #0072ff) border-box;
+
+    border: 2px solid transparent;
+    border-radius: 22px;
+
+    padding: 18px 38px;
+    margin-bottom: 25px;
+
+    color: #ffffff;
+
+    box-shadow:
+        0 10px 30px rgba(0, 114, 255, 0.15),
+        inset 0 0 25px rgba(0, 114, 255, 0.05);
+}
 
         .subtitle {
             max-width: 750px;
